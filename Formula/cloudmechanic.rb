@@ -1,28 +1,28 @@
 class Cloudmechanic < Formula
   desc "An OBD scanner for your AWS environment. Find cost leaks and security vulnerabilities in seconds."
   homepage "https://github.com/cloudmechanic-cli/cloudmechanic"
-  version "1.3.0"
+  version "1.4.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/cloudmechanic-cli/cloudmechanic/releases/download/v1.3.0/cloudmechanic_1.3.0_darwin_arm64.tar.gz"
-      sha256 "651f07bdf5e34fe8849eb2fc01015ed1adc9af946d485a1e90f6ee30698941e9"
+      url "https://github.com/cloudmechanic-cli/cloudmechanic/releases/download/v1.4.0/cloudmechanic_1.4.0_darwin_arm64.tar.gz"
+      sha256 "286164b667ce78387bc57479985c86ecc871ac5cf460a400790649cec5302861"
     end
     on_intel do
-      url "https://github.com/cloudmechanic-cli/cloudmechanic/releases/download/v1.3.0/cloudmechanic_1.3.0_darwin_amd64.tar.gz"
-      sha256 "2f5989f9ad12525a0ad417ce8b97e5bdba7319cc122aa3766283c599aa6e0c5c"
+      url "https://github.com/cloudmechanic-cli/cloudmechanic/releases/download/v1.4.0/cloudmechanic_1.4.0_darwin_amd64.tar.gz"
+      sha256 "561ddf54af78ff27c5e19be1a49e97d7d77e793aae0eb84101432300c9854189"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/cloudmechanic-cli/cloudmechanic/releases/download/v1.3.0/cloudmechanic_1.3.0_linux_arm64.tar.gz"
-      sha256 "18a39a526b4e063f7ab881afbe3345b11aa58a0a36aa83deabf44880f03d37d0"
+      url "https://github.com/cloudmechanic-cli/cloudmechanic/releases/download/v1.4.0/cloudmechanic_1.4.0_linux_arm64.tar.gz"
+      sha256 "04b53d78f10e03c766c7cd7e7e9c6e288b232dc0777458a1655a62f517123b11"
     end
     on_intel do
-      url "https://github.com/cloudmechanic-cli/cloudmechanic/releases/download/v1.3.0/cloudmechanic_1.3.0_linux_amd64.tar.gz"
-      sha256 "bdbd10dbdd5ec7041c1403cff8ed0729b1e16225adecc6d065ae1e3272c41b9e"
+      url "https://github.com/cloudmechanic-cli/cloudmechanic/releases/download/v1.4.0/cloudmechanic_1.4.0_linux_amd64.tar.gz"
+      sha256 "e32170dd88665e8a568e3fd98407fe1d695af4babd0936855848c5874f4aa0b6"
     end
   end
 
