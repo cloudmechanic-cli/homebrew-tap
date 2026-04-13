@@ -1,28 +1,28 @@
 class Cloudmechanic < Formula
   desc "An OBD scanner for your AWS environment. Find cost leaks and security vulnerabilities in seconds."
   homepage "https://github.com/cloudmechanic-cli/cloudmechanic"
-  version "1.4.0"
+  version "1.5.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/cloudmechanic-cli/cloudmechanic/releases/download/v1.4.0/cloudmechanic_1.4.0_darwin_arm64.tar.gz"
-      sha256 "286164b667ce78387bc57479985c86ecc871ac5cf460a400790649cec5302861"
+      url "https://github.com/cloudmechanic-cli/cloudmechanic/releases/download/v1.5.0/cloudmechanic_1.5.0_darwin_arm64.tar.gz"
+      sha256 "ae9c176372f261d666a3c561e8b2aa445638e6a247b7c9d7ec856f0cab03e2eb"
     end
     on_intel do
-      url "https://github.com/cloudmechanic-cli/cloudmechanic/releases/download/v1.4.0/cloudmechanic_1.4.0_darwin_amd64.tar.gz"
-      sha256 "561ddf54af78ff27c5e19be1a49e97d7d77e793aae0eb84101432300c9854189"
+      url "https://github.com/cloudmechanic-cli/cloudmechanic/releases/download/v1.5.0/cloudmechanic_1.5.0_darwin_amd64.tar.gz"
+      sha256 "fa219a40213370ce7f4c7a0382905804d55e47c3400fe91a904b8476c820b609"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/cloudmechanic-cli/cloudmechanic/releases/download/v1.4.0/cloudmechanic_1.4.0_linux_arm64.tar.gz"
-      sha256 "04b53d78f10e03c766c7cd7e7e9c6e288b232dc0777458a1655a62f517123b11"
+      url "https://github.com/cloudmechanic-cli/cloudmechanic/releases/download/v1.5.0/cloudmechanic_1.5.0_linux_arm64.tar.gz"
+      sha256 "93b8cbd34a0e86a84a2ec6cb50ee4e71320ee2d57945ed3dbc6455931c6f2f50"
     end
     on_intel do
-      url "https://github.com/cloudmechanic-cli/cloudmechanic/releases/download/v1.4.0/cloudmechanic_1.4.0_linux_amd64.tar.gz"
-      sha256 "e32170dd88665e8a568e3fd98407fe1d695af4babd0936855848c5874f4aa0b6"
+      url "https://github.com/cloudmechanic-cli/cloudmechanic/releases/download/v1.5.0/cloudmechanic_1.5.0_linux_amd64.tar.gz"
+      sha256 "81006fa0164967ef1e5db25adfebb7fdf8763742830221ad3528f6ee4cd29be0"
     end
   end
 
