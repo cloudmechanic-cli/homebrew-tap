@@ -5,21 +5,21 @@
 class Cloudmechanic < Formula
   desc "An OBD scanner for your AWS environment. Find cost leaks and security vulnerabilities in seconds."
   homepage "https://github.com/cloudmechanic-cli/cloudmechanic"
-  version "1.7.0"
+  version "1.7.1"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/cloudmechanic-cli/cloudmechanic/releases/download/v1.7.0/cloudmechanic_1.7.0_darwin_amd64.tar.gz"
-      sha256 "b19afdc0867ae73ab6341f2938162eb69335d2c56ce5cee0dd2951311fe41aa2"
+      url "https://github.com/cloudmechanic-cli/cloudmechanic/releases/download/v1.7.1/cloudmechanic_1.7.1_darwin_amd64.tar.gz"
+      sha256 "0a3702f47391fd9d40123bdfa5aa777528aa0e045ef55ec1b072be48ebdc4344"
 
       define_method(:install) do
         bin.install "cloudmechanic"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/cloudmechanic-cli/cloudmechanic/releases/download/v1.7.0/cloudmechanic_1.7.0_darwin_arm64.tar.gz"
-      sha256 "a308fe871e4745ced5902bd978be65e217be75dd6a7e66fea959871d8002cfe4"
+      url "https://github.com/cloudmechanic-cli/cloudmechanic/releases/download/v1.7.1/cloudmechanic_1.7.1_darwin_arm64.tar.gz"
+      sha256 "faa7ec18212b4ead26f3b16526539041ecb047c3363775c723e4917701251ece"
 
       define_method(:install) do
         bin.install "cloudmechanic"
@@ -29,15 +29,15 @@ class Cloudmechanic < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/cloudmechanic-cli/cloudmechanic/releases/download/v1.7.0/cloudmechanic_1.7.0_linux_amd64.tar.gz"
-      sha256 "cc559fa7d3c539b60ab75f74a7169c1c33d3947e6d18d9acc7867a274dff09c7"
+      url "https://github.com/cloudmechanic-cli/cloudmechanic/releases/download/v1.7.1/cloudmechanic_1.7.1_linux_amd64.tar.gz"
+      sha256 "78396e524db4a141564e1116e1cdb4187d213bd15f54e94753a99ac01ffe3779"
       define_method(:install) do
         bin.install "cloudmechanic"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/cloudmechanic-cli/cloudmechanic/releases/download/v1.7.0/cloudmechanic_1.7.0_linux_arm64.tar.gz"
-      sha256 "3ca2cb476979e2eae1c9af89aed59e64baa94107092538ae929944b7b661fb1c"
+      url "https://github.com/cloudmechanic-cli/cloudmechanic/releases/download/v1.7.1/cloudmechanic_1.7.1_linux_arm64.tar.gz"
+      sha256 "372275da9912c52ad1e5fba86d3534131506770c0ff320a0c13e5a4e916e471c"
       define_method(:install) do
         bin.install "cloudmechanic"
       end
